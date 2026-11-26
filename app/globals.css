@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400..700&display=swap");
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-background: #141414;
+  --color-surface: #1c1c1c;
+  --color-line: #303030;
+  --color-ink: #f0efeb;
+  --color-muted: #b5b4af;
+  --font-sans: "Inter", Arial, sans-serif;
+}
+
+:focus-visible {
+  outline: 2px solid #f0efeb;
+  outline-offset: 4px;
+}
+
+.artwork-placeholder {
+  background: linear-gradient(135deg, #303030, #202020);
+}
